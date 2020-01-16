@@ -38,4 +38,10 @@
 		{{ end }}
 	</ul>
 	{{ end }}
+
+	{{ with .Params.img }}
+	<p>
+		<img src="/img/{{.}}">
+	</p>
+	{{ end }}
 </div>

@@ -6,6 +6,7 @@ date: 2020-01-16T16:33:09+01:00
 dayNo: "000"
 roundNo: "01"
 series: "coding"
+img: "blog.png"
 progress: [
 	"built the blog in hugo",
 	"published on Netlify",
@@ -18,4 +19,5 @@ thoughts: [
 links: [
 	"https://gregoryperch.com"
 ]
----
+--- 
+![Working](assets/blog.png)
