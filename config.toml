@@ -1,0 +1,45 @@
+baseURL = "https://www.gregoryperch.com/"
+languageCode = "en-us"
+title = "My personal blog"
+copyright = "Grzegorz Grzęda"
+googleAnalytics = "UA-85169355-3"
+
+paginate = 100
+[Privacy]
+
+[Privacy.disqus]
+    disable = true
+
+[Privacy.googleAnalytics]
+    anonymizeIP = true
+    respectDoNotTrack = true
+    useSessionStorage = false
+
+[Params]
+	mainSections = ["entries"] 
+	description = "I'm Greg, a computer and electronics engineer. This is my 100-days-of-code blog."
+	web = "https://www.g2labs.pl"
+	github = "https://github.com/grzegorz-grzeda"
+	linkedin = "https://linkedin.com/in/grzegorzgrzeda/"
+	twitter = "https://twitter.com/GrzegorzGrzeda"
+	stackoverflow = "https://stackoverflow.com/users/4543444/grzegorz-grzeda"
+	images = ["dist/background.png"]
+	opengraph = true
+	shareTwitter = true
+	shareFacebook = true
+	shareLinkedIn = true
+	dateFormat = "2006-01-02"
+	highlightJsUrl = ""
+	highlightJsLocalUrl = ""
+
+[Author]
+	name = "Grzegorz Grzęda"
+	profile = "https://linkedin.com/in/grzegorzgrzeda/"
+		
+
+[imaging]
+    resampleFilter = "box"
+    quality = 100
+		
+[Permalinks]
+	entries = "/#:slug/"
