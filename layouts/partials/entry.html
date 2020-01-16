@@ -1,0 +1,41 @@
+<div class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+	<hr />
+
+	<a name="{{ .Params.slug }}"></a>
+
+	<h1>{{ humanize .Params.series }} S{{ .Params.roundNo }}D{{ .Params.dayNo}} </h1>
+
+	<time
+		datetime="{{ .Date.Format "2006-01-02" }}">{{ dateFormat (default "Mon, Jan 2, 2006" .Site.Params.dateFormat) .Date }}</time>
+
+	<h2>{{ .Title }}</h2>
+
+	<p>{{ .Description }}</p>
+
+	<h4>Progress</h4>
+	{{ if gt .Params.progress 0}}
+	<ul>
+		{{ range .Params.progress }}
+		<li>{{.}}</li>
+		{{ end }}
+	</ul>
+	{{ end }}
+
+	{{ if gt .Params.thoughts 0}}
+	<h4>Thoughts</h4>
+	<ul>
+		{{ range .Params.thoughts }}
+		{{ . }}
+		{{ end }}
+	</ul>
+	{{ end }}
+
+	{{ if gt .Params.thoughts 0 }}
+	<h4>Links</h4>
+	<ul>
+		{{ range .Params.links }}
+		<a href="{{ . }}">{{ . }}</a>
+		{{ end }}
+	</ul>
+	{{ end }}
+</div>
