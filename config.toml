@@ -2,7 +2,7 @@ baseURL = "https://www.gregoryperch.com/"
 languageCode = "en-us"
 title = "My personal blog"
 copyright = "Grzegorz Grzęda"
-googleAnalytics = "UA-85169355-3"
+googleAnalytics = "UA-85169355-4"
 
 paginate = 100
 [Privacy]

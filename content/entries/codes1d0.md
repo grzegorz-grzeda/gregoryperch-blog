@@ -17,7 +17,7 @@ thoughts: [
 	"Coding in hugo is fun!"
 ]
 links: [
-	"https://gregoryperch.com"
+	"https://gregoryperch.com",
+	"https://github.com/grzegorz-grzeda/gregoryperch-blog"
 ]
 --- 
-![Working](assets/blog.png)
